@@ -5,6 +5,7 @@ import App from './App.jsx';
 // jsx 파일 가져오기(import)
 import RouterPage from './pages/02_RouterPage.jsx';
 import QueryString from './pages/03_QueryString.jsx';
+import PathVariable from './pages/04_PathVariable.jsx';
 
 // 라우터를 사용하기 위해서 필요한 함수들 import
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/QueryString",  
     element: <QueryString />,  
+  },
+  {
+    path: "/PathVariable/:value",  
+    element: <PathVariable />,  
   },
   ]);
 

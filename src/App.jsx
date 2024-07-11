@@ -14,6 +14,9 @@ function App() {
           <li>
             <Link to="/QueryString">03_QueryString</Link>
           </li>
+          <li>
+            <Link to="/PathVariable">04_PathVariable</Link>
+          </li>
         </ul>
       </div>
     );
