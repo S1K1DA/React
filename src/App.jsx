@@ -21,6 +21,9 @@ function App() {
         <li>
           <Link to="/JSX" className="no-underline">05_JSX</Link>
         </li>
+        <li>
+          <Link to="/PropsPage" className="no-underline">06_PropsPage</Link>
+        </li>
         </ul>
 
       <hr/>

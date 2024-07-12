@@ -11,6 +11,8 @@ import NamePage from "../../pages/Training/Ex1_NamePage.jsx";
 import Jsx from "../../pages/05_JSX.jsx";
 import InlinePage from "../../pages/Training/Ex2_InlinePage.jsx";
 import OutStyleSheetPage from "../../pages/Training/Ex2_OutStyleSheetPage.jsx";
+import PropsPage from "../../pages/06_PropsPage.jsx";
+
 
 const router = createBrowserRouter([
     {
@@ -52,6 +54,10 @@ const router = createBrowserRouter([
     {
       path: "/OutStyleSheetPage",  
       element: <OutStyleSheetPage />,  
+    },
+    {
+      path: "/PropsPage",  
+      element: <PropsPage />,  
     },
     ]);
 
