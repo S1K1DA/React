@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import BackButton from "../components/common/BackButton";
 
 function PathVariable() {
     const { value } = useParams();
@@ -6,6 +7,7 @@ function PathVariable() {
     return (
         <div>
             <p>경로 파라미터 : { value }</p>
+            <BackButton />
         </div>
     );
 }
