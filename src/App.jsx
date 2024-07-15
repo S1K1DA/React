@@ -27,6 +27,9 @@ function App() {
         <li>
           <Link to="/Rendering" className="no-underline">06_Rendering</Link>
         </li>
+        <li>
+          <Link to="/Event" className="no-underline">07_EventPage</Link>
+        </li>
         </ul>
 
       <hr/>

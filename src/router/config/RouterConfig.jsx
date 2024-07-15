@@ -13,6 +13,7 @@ import InlinePage from "../../pages/Training/Ex2_InlinePage.jsx";
 import OutStyleSheetPage from "../../pages/Training/Ex2_OutStyleSheetPage.jsx";
 import PropsPage from "../../pages/06_PropsPage.jsx";
 import Rendering from "../../pages/06_RenderPage.jsx";
+import EventPage from "../../pages/07_EventPage.jsx";
 
 
 const router = createBrowserRouter([
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
     {
       path: "/Rendering",  
       element: <Rendering />,  
+    },
+    {
+      path: "/Event",  
+      element: <EventPage />,  
     },
     ]);
 
