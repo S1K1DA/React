@@ -24,6 +24,9 @@ function App() {
         <li>
           <Link to="/PropsPage" className="no-underline">06_PropsPage</Link>
         </li>
+        <li>
+          <Link to="/Rendering" className="no-underline">06_Rendering</Link>
+        </li>
         </ul>
 
       <hr/>
@@ -41,7 +44,7 @@ function App() {
       </ul>
 
       <hr/>
-        <h1>Ex1_실습 문제</h1>
+        <h1>Ex2_실습 문제</h1>
         <ul>
           <li>
             <Link to="/InlinePage" className="no-underline">Ex2_InlinePage</Link>
