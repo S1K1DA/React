@@ -5,15 +5,17 @@ import App from "../../App.jsx";
 import RouterPage from '../../pages/02_RouterPage.jsx';
 import QueryString from '../../pages/03_QueryString.jsx';
 import PathVariable from '../../pages/04_PathVariable.jsx';
-import AboutPage from "../../pages/Training/Ex1_AboutPage.jsx";
-import AddrPage from "../../pages/Training/Ex1_AddrPage.jsx";
-import NamePage from "../../pages/Training/Ex1_NamePage.jsx";
+import AboutPage from "../../pages/training/Ex1_AboutPage.jsx";
+import AddrPage from "../../pages/training/Ex1_AddrPage.jsx";
+import NamePage from "../../pages/training/Ex1_NamePage.jsx";
 import Jsx from "../../pages/05_JSX.jsx";
-import InlinePage from "../../pages/Training/Ex2_InlinePage.jsx";
-import OutStyleSheetPage from "../../pages/Training/Ex2_OutStyleSheetPage.jsx";
+import InlinePage from "../../pages/training/Ex2_InlinePage.jsx";
+import OutStyleSheetPage from "../../pages/training/Ex2_OutStyleSheetPage.jsx";
 import PropsPage from "../../pages/06_PropsPage.jsx";
 import Rendering from "../../pages/06_RenderPage.jsx";
 import EventPage from "../../pages/07_EventPage.jsx";
+import StatePage from "../../pages/08_StatePage.jsx";
+import StateQuizPage from "../../pages/training/Ex3_StateQuizPage.jsx";
 
 
 const router = createBrowserRouter([
@@ -68,6 +70,15 @@ const router = createBrowserRouter([
     {
       path: "/Event",  
       element: <EventPage />,  
+    },
+    {
+      path: "/State",
+      element: <StatePage />,
+    },
+
+    {
+      path: "/StateQuizPage",
+      element: <StateQuizPage />,
     },
     ]);
 

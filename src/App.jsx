@@ -30,6 +30,9 @@ function App() {
         <li>
           <Link to="/Event" className="no-underline">07_EventPage</Link>
         </li>
+        <li>
+          <Link to="/State" className="no-underline">08_State</Link>
+        </li>
         </ul>
 
       <hr/>
@@ -54,6 +57,15 @@ function App() {
           </li>
           <li>
             <Link to="/OutStyleSheetPage" className="no-underline">Ex2_OutStyleSheetPage</Link>
+          </li>
+        </ul>
+
+
+      <hr/>
+        <h1>Ex3_실습 문제</h1>
+        <ul>
+          <li>
+            <Link to="/StateQuizPage" className="no-underline">Ex3_StateQuizPage</Link>
           </li>
         </ul>
 
