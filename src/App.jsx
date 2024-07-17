@@ -39,6 +39,12 @@ function App() {
         <li>
           <Link to="/LiftingStatePage" className="no-underline">10_LiftingStatePage</Link>
         </li>
+        <li>
+          <Link to="/LiftingStatePage2" className="no-underline">11_LiftingStatePage</Link>
+        </li>
+        <li>
+          <Link to="/AxiosPage" className="no-underline">12_AxiosPage</Link>
+        </li>
         </ul>
 
       <hr/>
