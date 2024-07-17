@@ -16,7 +16,8 @@ import Rendering from "../../pages/06_RenderPage.jsx";
 import EventPage from "../../pages/07_EventPage.jsx";
 import StatePage from "../../pages/08_StatePage.jsx";
 import StateQuizPage from "../../pages/training/Ex3_StateQuizPage.jsx";
-
+import FormHandlePage from "../../pages/09_FormHandlePage.jsx";
+import LiftingStatePage from "../../pages/10_LiftingStatePage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -79,6 +80,14 @@ const router = createBrowserRouter([
     {
       path: "/StateQuizPage",
       element: <StateQuizPage />,
+    },
+    {
+      path: "/FormHandlePage",
+      element: <FormHandlePage />,
+    },
+    {
+      path: "/LiftingStatePage",
+      element: <LiftingStatePage />,
     },
     ]);
 

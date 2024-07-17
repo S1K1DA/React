@@ -13,7 +13,7 @@ export default function StateQuiz6() {
             return;
         }
 
-        if(intputNumber === 3 || intputNumber === 4 || intputNumber ===5) {
+        if([3, 4, 5].includes(intputNumber)) {
             setMessage("계절은 봄 입니다.");
         } else if(intputNumber === 6 || intputNumber === 7 || intputNumber ===8) {
             setMessage("계절은 여름 입니다.");
