@@ -21,10 +21,17 @@ import LiftingStatePage from "../../pages/10_LiftingStatePage.jsx";
 import LiftingStatePage2 from "../../pages/11_LiftingStatePage.jsx";
 import AxiosPage from "../../pages/12_AxiosPage.jsx";
 
+import FreeListPage from "../../pages/board/free/FreeListPage.jsx";
+import { FreeRoutes } from "../board/FreeRouter.jsx";
+
 const router = createBrowserRouter([
     {
       path: "/",  // URL 경로
       element: <App />, // 해당 URL로 왔을 때 이동할 페이지
+    },
+    {
+      path: "/freeBoard/*",  // URL 경로
+      element: <FreeRoutes />, // 해당 URL로 왔을 때 이동할 페이지
     },
     {
       path: "/RouterPage",  
@@ -98,6 +105,10 @@ const router = createBrowserRouter([
     {
       path: "/AxiosPage",
       element: <AxiosPage />,
+    },
+    {
+      path: "/freeboard/list",
+      element: <FreeListPage />,
     },
     ]);
 
